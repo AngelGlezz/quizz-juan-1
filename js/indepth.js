@@ -379,6 +379,18 @@ function finish_test(total){
 		var url = encodeURIComponent("http://juanfutbol.com/indepth/xxx?m="+totalfb);
 		window.open("https://www.facebook.com/sharer/sharer.php?u="+url,"","width=500, height=300");
 	});
+
+	$("#indepth_whatsapp").click(function(){
+		var text = "";
+		if (total == 0) {
+			text = encodeURIComponent("¡Soy un D10S como Messi!");
+		} else if (total == 1) {
+			text = encodeURIComponent("¡Siuuuuu! Soy como 'El Comandante'!");
+		}
+		var url = encodeURIComponent("http://juanfutbol.com/indepth/xxx?m="+totalfb);
+		window.open("https://wa.me/?text="+url+" "+text+" ¿Y tú?");
+		//window.open("https://wa.me/?text=HOLA!");
+	});
 }
 
 var indepth_sizeAdjust = function(firstTime){
