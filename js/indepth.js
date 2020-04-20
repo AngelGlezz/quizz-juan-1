@@ -57,11 +57,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "1",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/01-2.png'>",
+				          "respuesta": "Menos de 3",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/01-1.png'>",
+				          "respuesta": "Más de 3",
 				          "tipo": "false"
 				        }
 				      ]
@@ -70,11 +70,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "2",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/02-2.png'>",
+				          "respuesta": "Tus profesores",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/02-1.png'>",
+				          "respuesta": "Tus compañeros",
 				          "tipo": "false"
 				        }
 				      ]
@@ -83,11 +83,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "3",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/03-2.png'>",
+				          "respuesta": "Pasabas desapercibido",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/03-1.png'>",
+				          "respuesta": "Eras muy popular",
 				          "tipo": "false"
 				        }
 				      ]
@@ -96,11 +96,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "4",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/04-2.png'>",
+				          "respuesta": "Sin internet",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/04-1.png'>",
+				          "respuesta": "Online",
 				          "tipo": "false"
 				        }
 				      ]
@@ -109,11 +109,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "5",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/05-2.png'>",
+				          "respuesta": "Sí",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/05-1.png'>",
+				          "respuesta": "No",
 				          "tipo": "false"
 				        }
 				      ]
@@ -122,11 +122,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "6",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/06-2.png'>",
+				          "respuesta": "Drama",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/06-1.png'>",
+				          "respuesta": "Acción",
 				          "tipo": "false"
 				        }
 				      ]
@@ -135,11 +135,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "7",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/07-2.png'>",
+				          "respuesta": "Quedarte tranquilo en casa",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/07-1.png'>",
+				          "respuesta": "Salir y conocer nuevos lugares",
 				          "tipo": "false"
 				        }
 				      ]
@@ -148,11 +148,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "8",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/08-2.png'>",
+				          "respuesta": "Cumbias",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/08-1.png'>",
+				          "respuesta": "Reggaeton",
 				          "tipo": "false"
 				        }
 				      ]
@@ -161,11 +161,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "9",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/09-2.png'>",
+				          "respuesta": "Adidas",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/09-1.png'>",
+				          "respuesta": "Nike",
 				          "tipo": "false"
 				        }
 				      ]
@@ -174,11 +174,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "10",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/10-2.png'>",
+				          "respuesta": "Crear oportunidades",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/10-1.png'>",
+				          "respuesta": "Finalizar una jugada con gol",
 				          "tipo": "false"
 				        }
 				      ]
@@ -187,11 +187,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "11",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/11-2.png'>",
+				          "respuesta": "Sí",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/11-1.png'>",
+				          "respuesta": "No",
 				          "tipo": "false"
 				        }
 				      ]
@@ -200,11 +200,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "12",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/12-2.png'>",
+				          "respuesta": "Esquiar en la nieve",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/12-1.png'>",
+				          "respuesta": "La playa",
 				          "tipo": "false"
 				        }
 				      ]
@@ -213,11 +213,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "13",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/13-2.png'>",
+				          "respuesta": "Azul",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/13-1.png'>",
+				          "respuesta": "Rojo",
 				          "tipo": "false"
 				        }
 				      ]
@@ -226,11 +226,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "14",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/14-2.png'>",
+				          "respuesta": "Con barba",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/14-1.png'>",
+				          "respuesta": "Sin barba",
 				          "tipo": "false"
 				        }
 				      ]
@@ -239,11 +239,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "15",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/15-2.png'>",
+				          "respuesta": "Sí",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/15-1.png'>",
+				          "respuesta": "No",
 				          "tipo": "false"
 				        }
 				      ]
@@ -252,11 +252,11 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "16",
 				      "respuestas": [
 				        {
-				          "respuesta": "<img src='images/opciones/16-2.png'>",
+				          "respuesta": "Zurda",
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "<img src='images/opciones/16-1.png'>",
+				          "respuesta": "Ambos",
 				          "tipo": "false"
 				        }
 				      ]
