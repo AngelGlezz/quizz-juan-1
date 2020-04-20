@@ -742,6 +742,12 @@
 	}
 }
 
+@media screen and (max-width: 750px) {
+	.inner {
+		width: 95%;
+	}
+}
+
 @media screen and (max-width: 640px) {
 	.indepth_pronostico_cont{
 		width: 450px;
