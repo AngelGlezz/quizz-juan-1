@@ -344,7 +344,7 @@ function finish_test(total){
 			"top": 0,
 			"left": -ventana_ancho
 		});
-		$(".inner").append("<img src='images/respuestas/0.png'>");
+		$(".inner").append("<img src='"+urlIndepth+"images/respuestas/0.png'>");
 		totalfb = "Messi"
 	} else if (img == 1) {
 		$("#indepth_resultados").css({
@@ -353,7 +353,7 @@ function finish_test(total){
 			"top": 0,
 			"left": -ventana_ancho
 		});
-		$(".inner").append("<img src='images/respuestas/1.png'>");
+		$(".inner").append("<img src='"+urlIndepth+"images/respuestas/1.png'>");
 		totalfb = "Bicho";
 	}
 
@@ -371,12 +371,12 @@ function finish_test(total){
 			text = encodeURIComponent("¡Siuuuuu! ¡Eres como 'El Comandante'!");
 		}
 		
-		var url = encodeURIComponent("http://juanfutbol.com/indepth/xxx");
+		var url = encodeURIComponent("http://juanfutbol.com/indepth/¿messi-o-cr7?-la-verdad");
 		window.open("https://twitter.com/share?text="+text+"&hashtags=JFQuizz&url="+url,"","width=500, height=300");
 	});
 
 	$("#indepth_facebook").click(function(){
-		var url = encodeURIComponent("http://juanfutbol.com/indepth/xxx?m="+totalfb);
+		var url = encodeURIComponent("http://juanfutbol.com/indepth/¿messi-o-cr7?-la-verdad?m="+totalfb);
 		window.open("https://www.facebook.com/sharer/sharer.php?u="+url,"","width=500, height=300");
 	});
 
@@ -388,7 +388,7 @@ function finish_test(total){
 			text = encodeURIComponent("¡Siuuuuu! Soy como 'El Comandante'! ¿Y tú?");
 		}
 
-		var url = encodeURIComponent("http://juanfutbol.com/indepth/xxx?m="+totalfb);
+		var url = encodeURIComponent("http://juanfutbol.com/indepth/¿messi-o-cr7?-la-verdad?m="+totalfb);
 		window.open("https://wa.me/?text="+url+" "+text);
 	});
 }
