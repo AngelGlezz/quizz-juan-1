@@ -366,17 +366,17 @@ function finish_test(total){
   	$("#indepth_twittear").click(function(){
   		var text = "";
 		if (total == 0) {
-			text = encodeURIComponent("¡Eres un D10S como Messi!");
+			text = encodeURIComponent("¡Eres un D10S como Messi!?m="+totalfb);
 		} else if (total == 1) {
-			text = encodeURIComponent("¡Siuuuuu! ¡Eres como 'El Comandante'!");
+			text = encodeURIComponent("¡Siuuuuu! ¡Eres como 'El Comandante'!?m="+totalfb);
 		}
 		
-		var url = encodeURIComponent("http://juanfutbol.com/indepth/¿messi-o-cr7?-la-verdad");
+		var url = encodeURIComponent("http://juanfutbol.com/indepth/messi-o-cr7-la-verdad");
 		window.open("https://twitter.com/share?text="+text+"&hashtags=JFQuizz&url="+url,"","width=500, height=300");
 	});
 
 	$("#indepth_facebook").click(function(){
-		var url = encodeURIComponent("http://juanfutbol.com/indepth/¿messi-o-cr7?-la-verdad?m="+totalfb);
+		var url = encodeURIComponent("http://juanfutbol.com/indepth/messi-o-cr7-la-verdad?m="+totalfb);
 		window.open("https://www.facebook.com/sharer/sharer.php?u="+url,"","width=500, height=300");
 	});
 
@@ -388,7 +388,7 @@ function finish_test(total){
 			text = encodeURIComponent("¡Siuuuuu! Soy como 'El Comandante'! ¿Y tú?");
 		}
 
-		var url = encodeURIComponent("http://juanfutbol.com/indepth/¿messi-o-cr7?-la-verdad?m="+totalfb);
+		var url = encodeURIComponent("http://juanfutbol.com/indepth/messi-o-cr7-la-verdad?m="+totalfb);
 		window.open("https://wa.me/?text="+url+" "+text);
 	});
 }
